@@ -1,0 +1,25 @@
+import { useState } from 'react'
+import './App.css'
+import Nav from './page1/nav.jsx'
+import './page1/Nav.css'
+import MainContent from './page1/mainContent.jsx'
+import './page1/mainContent.css'
+// import '../assets/people.png'
+// import '../assets/client1.png'
+// import '../assets/client2.png'
+// import './assets/client3.png'
+// import './assets/image4.png'
+import Footer from './page1/footer.jsx'
+import './page1/footer.css'
+function App() {
+  const [count, setCount] = useState(0)
+  return (
+    <>
+      <Nav />
+      <MainContent />
+      <Footer />
+    </>
+  )
+}
+
+export default App

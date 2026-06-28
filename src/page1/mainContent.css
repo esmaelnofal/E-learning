@@ -1,0 +1,89 @@
+
+.MainContent {
+    width: 100%;
+    min-height: calc(100vh - 80px); /* لو ارتفاع الـ Navbar 80px */
+    display: flex;
+    align-items: center;      /* يخلي المحتوى في نص الصفحة رأسيًا */
+    justify-content: space-between;
+    padding: 0 80px;
+    background: #eef4ff;
+}
+
+.leftMainContent {
+    width: 50%;
+}
+
+.leftMainContent h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    
+}
+
+/* .MainContentSpan1,
+.MainContentSpan2 {
+    display: block;
+} */
+
+.leftMainContent p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.7;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    max-width: 650px;
+}
+
+.MainContentButton {
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    background: #3559e0;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.MainContentButton2 {
+    padding: 20px 35px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.RightMainContent{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RightMainContent img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    box-shadow:  30px -25px 0px #173B5A;
+}
+.MainContentButton i{
+    background: none;
+    color: white;
+}
+.MainContentButton2 i{
+    margin-right: 2px;
+}
+.clientImages{
+    display: flex;
+
+}
+.clientImages img{
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
