@@ -7,13 +7,13 @@ import './LandingPage.css';
 const LandingPage = () => {
   return (
     <div className="landing-page-wrapper">
-      {/* سكشن آراء العملاء */}
+      {}
       <Testimonials />
       
-      {/* سكشن البانر الأزرق */}
+      {}
       <CallToAction />
       
-      {/* سكشن الفوتر السفلي */}
+      {}
       <Footer />
     </div>
   );
