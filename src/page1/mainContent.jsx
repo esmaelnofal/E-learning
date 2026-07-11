@@ -17,8 +17,8 @@ export default function MainContent() {
             tutoring, and a community of ambitious learners. Your
             journey to mastery starts here.</p>
             <div>
-              <button className='MainContentButton'>Get Started <i class="fa-solid fa-arrow-right"></i></button>
-              <button className='MainContentButton2'><i class="fa-regular fa-circle-play"></i> Watch Demo</button>
+              <button className='MainContentButton'>Get Started <i className="fa-solid fa-arrow-right"></i></button>
+              <button className='MainContentButton2'><i className="fa-regular fa-circle-play"></i> Watch Demo</button>
             </div>
             <div className='clients' style={{display:'flex', gap: '20px', alignItems: 'center', marginTop: '20px'}}>
             <div className='clientImages'>

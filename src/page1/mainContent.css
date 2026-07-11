@@ -1,31 +1,35 @@
-
-.MainContent {
+body{
+    margin: 0;
+    background-color: aliceblue;
+    padding: 0;
+}
+.MainContent{
     width: 100%;
-    min-height: calc(100vh - 80px); /* لو ارتفاع الـ Navbar 80px */
+    min-height: calc(100vh - 80px); 
     display: flex;
-    align-items: center;      /* يخلي المحتوى في نص الصفحة رأسيًا */
+    align-items: center;      
     justify-content: space-between;
-    padding: 0 80px;
+    padding: 0 40px;
     background: #eef4ff;
 }
 
-.leftMainContent {
+.leftMainContent{
     width: 50%;
 }
 
-.leftMainContent h1 {
+.leftMainContent h1{
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
     
 }
 
-/* .MainContentSpan1,
+.MainContentSpan1,
 .MainContentSpan2 {
     display: block;
-} */
+}
 
-.leftMainContent p {
+.leftMainContent p{
     font-size: 20px;
     color: #555;
     line-height: 1.7;
@@ -34,7 +38,7 @@
     max-width: 650px;
 }
 
-.MainContentButton {
+.MainContentButton{
     padding: 20px 35px;
     border: none;
     border-radius: 10px;
@@ -45,7 +49,7 @@
     margin-right: 20px;
 }
 
-.MainContentButton2 {
+.MainContentButton2{
     padding: 20px 35px;
     border: 2px solid grey;
     border-radius: 10px;
