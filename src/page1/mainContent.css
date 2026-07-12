@@ -1,7 +1,8 @@
 body{
     margin: 0;
-    background-color: aliceblue;
+    background-color: white;
     padding: 0;
+    box-sizing: border-box;
 }
 .MainContent{
     width: 100%;
@@ -9,8 +10,8 @@ body{
     display: flex;
     align-items: center;      
     justify-content: space-between;
-    padding: 0 40px;
-    background: #eef4ff;
+    padding: 0 80px;
+    background-color: white;
 }
 
 .leftMainContent{

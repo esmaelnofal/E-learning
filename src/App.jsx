@@ -12,6 +12,11 @@ import './assets/image4.png'
 import './page1/footer.css'
 import Footer from './page1/footer.jsx'
 import './page1/footer.css'
+import PathToSuccess from './page2/pathToSuccess.jsx'
+import './page2/pathToSuccess.css'
+import FeaturedCourses from './page3/feauturedCourses.jsx'
+import './page3/featuredCourses.css'
+
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -19,6 +24,8 @@ function App() {
       <Nav />
       <MainContent />
       <Footer />
+      <PathToSuccess />
+      <FeaturedCourses />
     </>
   )
 }
