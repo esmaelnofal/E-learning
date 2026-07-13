@@ -1,0 +1,5 @@
+.tab-item.active{
+  color: rgba(42,74,198,100%);
+  border-bottom: 2px solid rgba(42,74,198,100%);
+  font-weight: bold;
+}

@@ -1,0 +1,325 @@
+.featuredSection {
+    width: 100%;
+    padding: 90px 80px;
+    background: #ffffff;
+}
+
+.featuredContainer {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.featuredHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.featuredTitle {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.featuredSubTitle {
+    color: #64748b;
+    font-size: 18px;
+}
+
+.viewAll {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #0f766e;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.viewAll:hover {
+    color: #3559e0;
+}
+
+.coursesGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+
+.leftCourses {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.featuredCard {
+    display: flex;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
+
+.featuredImage {
+    width: 50%;
+    position: relative;
+}
+
+.featuredImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.featuredContent {
+    width: 50%;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.courseInfo {
+    display: flex;
+    gap: 25px;
+    color: #0f766e;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.courseInfo span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.featuredContent h3 {
+    font-size: 36px;
+    color: #1e293b;
+    margin-bottom: 18px;
+}
+
+.featuredContent p {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.teacher img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.cardFooter h4 {
+    font-size: 30px;
+    color: #111827;
+}
+
+.smallCard {
+    display: flex;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
+
+.smallImage {
+    width: 50%;
+    position: relative;
+}
+
+.smallImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.newBadge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #34d399;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.smallContent {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weeks {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #0f766e;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.smallContent h3,
+.rightContent h3 {
+    font-size: 28px;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.smallContent p,
+.rightContent p {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.bottomInfo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomInfo span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #374151;
+    font-weight: 600;
+}
+
+.bottomInfo h4 {
+    font-size: 24px;
+}
+
+.rightCard {
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCard img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.rightContent {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.rightContent h3 {
+    margin-top: 15px;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width:992px){
+
+.featuredSection{
+    padding:70px 40px;
+}
+
+.coursesGrid{
+    grid-template-columns:1fr;
+}
+
+.featuredCard,
+.smallCard{
+    flex-direction:column;
+}
+
+.featuredImage,
+.featuredContent,
+.smallImage,
+.smallContent{
+    width:100%;
+}
+
+.featuredTitle{
+    font-size:34px;
+}
+
+.featuredContent h3{
+    font-size:30px;
+}
+
+}
+
+@media(max-width:768px){
+
+.featuredHeader{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.viewAll{
+    margin-top:10px;
+}
+
+.featuredSection{
+    padding:60px 20px;
+}
+
+.featuredTitle{
+    font-size:30px;
+}
+
+.featuredContent h3,
+.smallContent h3,
+.rightContent h3{
+    font-size:24px;
+}
+
+.cardFooter{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.bottomInfo{
+    margin-top:20px;
+}
+}
