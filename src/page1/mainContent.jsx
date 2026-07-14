@@ -1,4 +1,3 @@
-import React from "react";
 import "./mainContent.css";
 import people from "../assets/people.png";
 import client1 from "../assets/client1.png";

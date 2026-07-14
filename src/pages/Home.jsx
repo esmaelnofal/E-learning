@@ -1,14 +1,9 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
 import StatCard from "../components/StatCard";
 import UserTable from "../components/UserTable";
 import PlatformHealth from "../components/PlatformHealth";
-import MainContent from "../page1/mainContent";
-import Footer from "../components/Footer";
-import PathToSuccess from "../page2/pathToSuccess";
-import FeaturedCourses from "../page3/feauturedCourses";
 
 export default function Home({ isDarkMode, toggleDarkMode }) {
   const navigate = useNavigate();
@@ -84,10 +79,6 @@ export default function Home({ isDarkMode, toggleDarkMode }) {
             <div className="bottom-section flex flex-col gap-5 lg:flex-row">
               <UserTable />
               <PlatformHealth />
-              <MainContent />
-              <Footer />
-              <PathToSuccess />
-              <FeaturedCourses />
             </div>
           </div>
         </div>

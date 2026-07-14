@@ -6,8 +6,8 @@ import Home2 from "./pages/Home2";
 import Exams from "./pages/Exams";
 import PathToSuccess from "./page2/pathToSuccess";
 import FeaturedCourses from "./page3/feauturedCourses";
-import InstructorDashboard from "./page4/instructorDashBoard";
 import FatamaPage from "./pages/FatamaPage";
+import InstructorDashboard from "./page4/instructorDashBoard";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -38,6 +38,14 @@ export default function App() {
             }
           />
           <Route path="/success" element={<PathToSuccess />} />
+          <Route
+            path="/instructordashboard"
+            element={
+              <>
+                <InstructorDashboard />
+              </>
+            }
+          />
           <Route path="/courses" element={<FeaturedCourses />} />
           <Route path="/instructor" element={<InstructorDashboard />} />
           <Route path="/fatama" element={<FatamaPage />} />
