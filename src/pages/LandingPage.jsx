@@ -16,10 +16,11 @@ const LandingPage = () => {
     <div className="landing-page-wrapper">
       <Nav onLogin={handleLogin} onGetStarted={handleLogin} />
       <MainContent onGetStarted={handleLogin} />
-      <CallToAction />
+      
       <PathToSuccess />
       <FeaturedCourses />
       <Testimonials />
+      <CallToAction />
       <Footer />
     </div>
   );
