@@ -21,15 +21,21 @@ export default function App() {
           <Route path="/" element={<LandingPage />} />
           <Route
             path="/dashboard"
-            element={<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
+            element={
+              <Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+            }
           />
           <Route
             path="/home"
-            element={<Home2 isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
+            element={
+              <Home2 isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+            }
           />
           <Route
             path="/exams"
-            element={<Exams isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
+            element={
+              <Exams isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+            }
           />
           <Route path="/success" element={<PathToSuccess />} />
           <Route path="/courses" element={<FeaturedCourses />} />

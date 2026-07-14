@@ -1,14 +1,16 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './nav.css';
+import { NavLink } from "react-router-dom";
+import "./nav.css";
 
 const navItems = [
-  { label: 'Dashboard', to: '/dashboard' },
-  { label: 'AI Tutor', to: '/home' },
-  { label: 'Exams', to: '/exams' },
-  { label: 'Success Path', to: '/success' },
-  { label: 'Courses', to: '/courses' },
-  { label: 'Instructor', to: '/instructor' },
+  { label: "Dashboard", to: "/dashboard" },
+  { label: "AI Tutor", to: "/home" },
+  { label: "Exams", to: "/exams" },
+  { label: "Success Path", to: "/success" },
+  { label: "Courses", to: "/courses" },
+  { label: "Instructor", to: "/instructor" },
+  { label: "Explore", to: "/explore" },
+  { label: "Pricing", to: "/pricing" },
+  { label: "About", to: "/about" },
 ];
 
 export default function Nav({ onLogin, onGetStarted }) {
@@ -25,7 +27,7 @@ export default function Nav({ onLogin, onGetStarted }) {
               <NavLink
                 to={to}
                 className={({ isActive }) =>
-                  `nav-link ${isActive ? 'active' : ''}`
+                  `nav-link ${isActive ? "active" : ""}`
                 }
               >
                 {label}

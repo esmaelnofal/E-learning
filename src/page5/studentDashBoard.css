@@ -1,0 +1,649 @@
+/* ===================================== */
+/* Student Dashboard */
+/* ===================================== */
+/*
+.streak-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#fff;
+    padding:16px 22px;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.06);
+}
+
+.streak-icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#fff7ed;
+    color:#f97316;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.streak-card h3{
+    font-size:17px;
+    color:#111827;
+    margin-bottom:4px;
+}
+
+.streak-card span{
+    color:#6b7280;
+    font-size:13px;
+}
+
+/* =========================== */
+/* Current Focus */
+/* =========================== */
+/*
+.focus-card{
+    margin-top:35px;
+    background:#0f172a;
+    border-radius:22px;
+    padding:30px;
+    color:#fff;
+}
+
+.focus-badge{
+    display:inline-block;
+    background:#2563eb;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.focus-content{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.focus-content img{
+    width:220px;
+    height:140px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+.focus-info{
+    flex:1;
+}
+
+.focus-info h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.focus-info p{
+    color:#94a3b8;
+    margin-bottom:22px;
+}
+
+.progress-text{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    color:#cbd5e1;
+}
+
+.student-progress{
+    width:68%;
+    background:#22c55e;
+}
+
+.resume-btn{
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    padding:14px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    transition:.3s;
+}
+
+.resume-btn:hover{
+    background:#1d4ed8;
+}
+
+/* =========================== */
+/* Recommended */
+/* =========================== */
+/*
+.recommend-section{
+    margin-top:40px;
+}
+
+.recommend-section .section-title h2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.recommend-section svg{
+    color:#2563eb;
+}
+
+.recommend-card{
+    margin-top:18px;
+    background:#fff;
+    border-radius:18px;
+    padding:18px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.recommend-card:hover{
+    transform:translateY(-4px);
+}
+
+.recommend-card img{
+    width:130px;
+    height:90px;
+    border-radius:12px;
+    object-fit:cover;
+}
+
+.recommend-info{
+    flex:1;
+}
+
+.recommend-tag{
+    color:#2563eb;
+    font-size:13px;
+    font-weight:600;
+}
+
+.recommend-info h3{
+    margin:8px 0;
+    font-size:22px;
+}
+
+.recommend-info p{
+    color:#6b7280;
+    line-height:1.6;
+}
+
+.recommend-card svg:last-child{
+    color:#94a3b8;
+}
+/* =========================== */
+/* Bottom Student Section */
+/* =========================== */
+/*
+.student-section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+    margin-top:40px;
+}
+
+/* Upcoming Classes */
+/*
+.coming{
+    background:#fff;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.coming h2{
+    margin-bottom:25px;
+    color:#111827;
+}
+
+.event{
+    display:flex;
+    gap:18px;
+    margin-bottom:25px;
+}
+
+.date{
+    width:60px;
+    text-align:center;
+}
+
+.date small{
+    color:#9ca3af;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.date h3{
+    color:#2563eb;
+    font-size:30px;
+    margin-top:3px;
+}
+
+.event h4{
+    margin-bottom:8px;
+    color:#111827;
+}
+
+.event p{
+    color:#6b7280;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+}
+
+.event svg{
+    color:#2563eb;
+}
+
+/* =========================== */
+/* Badges */
+/* =========================== */
+/*
+.badges-card{
+    background:#fff;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.badges{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30px;
+}
+
+.badge{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+}
+
+.badge span{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.badge-icon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.badge-icon.orange{
+    background:#fff7ed;
+    color:#f97316;
+}
+
+.badge-icon.green{
+    background:#dcfce7;
+    color:#16a34a;
+}
+
+.badge-icon.gray{
+    background:#f1f5f9;
+    color:#64748b;
+}
+
+/* =========================== */
+/* Floating Chat */
+/* =========================== */
+/*
+.chat-btn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:50%;
+    background:#2563eb;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(37,99,235,.35);
+    transition:.3s;
+    z-index:1000;
+}
+
+.chat-btn:hover{
+    transform:scale(1.08);
+    background:#1d4ed8;
+}
+
+/* =========================== */
+/* Responsive */
+/* =========================== */
+/*
+@media (max-width:1100px){
+
+    .focus-content{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .focus-content img{
+        width:100%;
+        height:220px;
+    }
+
+    .resume-btn{
+        width:100%;
+        justify-content:center;
+    }
+
+    .student-section{
+        grid-template-columns:1fr;
+    }
+
+    .title{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:25px;
+    }
+
+    .streak-card{
+        width:100%;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .content{
+        padding:20px;
+    }
+
+    .focus-card{
+        padding:20px;
+    }
+
+    .focus-info h2{
+        font-size:22px;
+    }
+
+    .recommend-card{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .recommend-card img{
+        width:100%;
+        height:200px;
+    }
+
+    .badges{
+        flex-direction:column;
+        gap:25px;
+    }
+
+    .chat-btn{
+        width:52px;
+        height:52px;
+        right:20px;
+        bottom:20px;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .search{
+        width:100%;
+    }
+
+    .header-right{
+        gap:12px;
+    }
+
+    .header-right img{
+        width:36px;
+        height:36px;
+    }
+
+    .title h1{
+        font-size:28px;
+    }
+
+}
+
+
+
+/* ============================= */
+/* Dashboard Layout */
+/* ============================= */
+/*
+.dashboard{
+    display:flex;
+    min-height:100vh;
+    background:#f8fafc;
+}
+
+.main{
+    flex:1;
+    transition:.35s;
+}
+
+/* ============================= */
+/* Sidebar */
+/* ============================= */
+/*
+.sidebar{
+    width:0;
+    overflow:hidden;
+    background:#0f172a;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    transition:.35s;
+    flex-shrink:0;
+}
+
+.dashboard.open .sidebar{
+    width:260px;
+    padding:20px;
+}
+
+.overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.35);
+    z-index:998;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:35px;
+}
+
+.logo-circle{
+    width:40px;
+    height:40px;
+    background:#2563eb;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+
+.logo h2{
+    color:#fff;
+    font-size:18px;
+}
+
+.logo span{
+    color:#94a3b8;
+    font-size:13px;
+}
+
+.close{
+    margin-left:auto;
+    border:none;
+    background:none;
+    color:#fff;
+    cursor:pointer;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+nav a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:13px 16px;
+    border-radius:12px;
+    color:#cbd5e1;
+    text-decoration:none;
+    cursor:pointer;
+    transition:.25s;
+}
+
+nav a:hover{
+    background:#1e293b;
+    color:#fff;
+}
+
+nav a.active{
+    background:#2563eb;
+    color:#fff;
+}
+
+.bottom{
+    margin-top:auto;
+}
+
+.upgrade{
+    width:100%;
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    padding:13px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:18px;
+}
+
+.bottom a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px;
+    color:#cbd5e1;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.bottom a:hover{
+    background:#1e293b;
+}
+
+/* ============================= */
+/* Header */
+/* ============================= */
+/*
+header{
+    background:#fff;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:20px 30px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.menu-btn{
+    width:44px;
+    height:44px;
+    border:none;
+    background:#fff;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.menu-btn:hover{
+    background:#f8fafc;
+}
+
+.header-open{
+    padding-left:30px;
+}
+
+.search{
+    flex:1;
+    max-width:500px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#f1f5f9;
+    padding:12px 16px;
+    border-radius:12px;
+}
+
+.search input{
+    border:none;
+    background:none;
+    width:100%;
+    outline:none;
+    font-size:14px;
+}
+
+.header-right{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.header-right img{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.content{
+    padding:35px;
+}
+
+/* ============================= */
+/* Responsive */
+/* ============================= */
+/*
+@media(max-width:768px){
+
+    .content{
+        padding:20px;
+    }
+
+    .search{
+        max-width:100%;
+    }
+
+    .header-right{
+        gap:12px;
+    }
+
+}
