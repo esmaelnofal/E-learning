@@ -16,7 +16,8 @@ import PathToSuccess from './page2/pathToSuccess.jsx'
 import './page2/pathToSuccess.css'
 import FeaturedCourses from './page3/feauturedCourses.jsx'
 import './page3/featuredCourses.css'
-
+import InstructorDashBoard from './page4/instructorDashBoard.jsx'
+import './page4/instructorDashBoard.css'
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -26,6 +27,8 @@ function App() {
       <Footer />
       <PathToSuccess />
       <FeaturedCourses />
+      <InstructorDashBoard />
+      
     </>
   )
 }

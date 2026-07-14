@@ -10,7 +10,7 @@ export default function MainContent() {
     <div className='MainContent'>
       <div className='leftMainContent'>
           <h1>
-            <span className='MainContentSpan1'>Empower Your Future with</span> <br />
+            <span className='MainContentSpan1'>Empower Your Future with</span>
             <span style={{color: "#3559e0"}} className='MainContentSpan2'>Smart Learning</span>
           </h1>
           <p>Unlock your potential with expert-led courses, interactive AI

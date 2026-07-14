@@ -20,14 +20,16 @@ body{
 
 .leftMainContent h1{
     font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 700; 
+     line-height: 1.2;
     
 }
 
 .MainContentSpan1,
 .MainContentSpan2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap:3px;
 }
 
 .leftMainContent p{

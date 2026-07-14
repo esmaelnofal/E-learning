@@ -62,17 +62,21 @@
     font-size: 18px;
 }
 .signup{
-    color: white;
-    background-color: rgba(42,74,198,100%);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-    height: 38px;
+        border:none;
+
+    background:#2563eb;
+
+    color:white;
+font-size: 18px;
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+    height: 42px;
     width: 160px;
 }
 .navButtons{
     display: flex;
     gap:10px;
-
 }
